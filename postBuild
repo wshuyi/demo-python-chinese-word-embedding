@@ -1,2 +1,5 @@
+rm -f zh.vec
+git clone https://gitlab.com/wshuyi/host-for-zhvec.git
+mv host-for-zhvec/zh.vec .
 python handle_matplotlib_chinese.py
 python -m ipykernel install --user --name=wangshuyi
