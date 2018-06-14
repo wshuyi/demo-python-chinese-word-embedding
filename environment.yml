@@ -1,0 +1,9 @@
+dependencies:
+  - python=3
+  - pip:
+    - ipykernel
+    - matplotlib
+    - pandas
+    - jieba
+    - gensim
+    - scikit-learn
